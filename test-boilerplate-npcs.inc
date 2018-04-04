@@ -39,23 +39,3 @@ CMD:npcrespawn(playerid, params[]) {
     }
     return 1;
 }
-
-CMD:weapon(playerid, params[]) {
-    GivePlayerWeapon(playerid, 31, 1000);
-    return 1;
-}
-
-public OnPlayerTakeDamage(playerid, issuerid, Float:amount, weaponid, bodypart) {
-    printf("TakeDamage %d %d %f %d %d", playerid, issuerid, amount, weaponid, bodypart);
-    return 1;
-}
-
-public OnPlayerGiveDamage(playerid, damagedid, Float:amount, weaponid, bodypart) {
-    printf("GiveDamage %d %d %f %d %d", playerid, damagedid, amount, weaponid, bodypart);
-    return 1;
-}
-
-public OnPlayerWeaponShot(playerid, weaponid, hittype, hitid, Float:fX, Float:fY, Float:fZ) {
-    printf("WeaponShot %d %d %d %d %f %f %f", playerid, weaponid, hittype, hitid, fX, fY, fZ);
-    return 1;
-}
