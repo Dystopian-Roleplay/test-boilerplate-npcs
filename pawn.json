@@ -1,0 +1,16 @@
+{
+	"user": "ScavengeSurvive",
+	"repo": "test-boilerplate-npcs",
+	"entry": "test.pwn",
+	"output": "test.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib",
+		"pawn-lang/YSI-Includes",
+		"ziggi/FCNPC",
+		"ScavengeSurvive/test-boilerplate",
+		"Southclaws/zcmd"
+	],
+	"runtime": {
+		"maxnpc": 6
+	}
+}
