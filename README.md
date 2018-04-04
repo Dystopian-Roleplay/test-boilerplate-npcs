@@ -10,6 +10,8 @@ This library also includes
 so check out the readme for that package for information on the pre-set spawn
 location and coordinates etc.
 
+![https://i.imgur.com/tefGoeE.gif](https://i.imgur.com/tefGoeE.gif)
+
 ## Installation
 
 Simply install to your project as a development dependency:
