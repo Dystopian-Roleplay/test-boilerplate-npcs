@@ -1,13 +1,13 @@
 // built-in include guard removal
 // just in case the user has a local dependency with the same file name
-#if defined _inc_library
-	#undef _inc_library
+#if defined _inc_test_boilerplate_npcs
+	#undef _inc_test_boilerplate_npcs
 #endif
 // custom include-guard to ensure we don't duplicate
-#if defined _library_included
+#if defined _test_boilerplate_npcs_included
 	#endinput
 #endif
-#define _library_included
+#define _test_boilerplate_npcs_included
 
 
 #include <a_samp>
