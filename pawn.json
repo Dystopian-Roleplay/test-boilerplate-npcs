@@ -7,7 +7,7 @@
 		"sampctl/samp-stdlib",
 		"pawn-lang/YSI-Includes",
 		"ziggi/FCNPC",
-		"ScavengeSurvive/test-boilerplate",
+		"Dystopian-Roleplay/test-boilerplate",
 		"Southclaws/zcmd"
 	],
 	"runtime": {
